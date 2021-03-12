@@ -18,5 +18,6 @@ Using this Windows tool, it generates both .xml and .html files, adding the actu
  2. We use **powercfg /batteryreport /OUTPUT** to create our reports:
      - **Note*: **/DURATION 14** sets the report to analyze the last 14 days
      - FileName format: **battery-report_dd-mm-yyyy_hh.mm.ss**.html
-
+ 3. We check if there is already another file with this same name existing
+     - This probably won't happen (we have added the time with seconds in the name) but anyway, it's better to check it!
 **Note*: Battery Report allows you to chek your laptop battery's health, and more!
